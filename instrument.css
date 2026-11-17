@@ -9,8 +9,8 @@
   --ink: #e8e8e4;          /* primary text, 2px section rules */
   --ink-2: #a3a39e;        /* secondary text */
   --ink-3: #7a7a75;        /* labels, metadata (4.5:1 on --bg) */
-  --accent: #ff5a1f;       /* fills: active cell, current marker */
-  --accent-text: #ff5a1f;  /* accent used as text */
+  --accent: #2dd4bf;       /* fills: active cell, current marker */
+  --accent-text: #2dd4bf;  /* accent used as text */
   --on-accent: #0d0d0c;    /* text placed on an accent fill */
   --ok: #8fbf6a;           /* status only, never decoration */
   --warn: #e0b04a;
@@ -33,8 +33,8 @@
   --ink: #111110;
   --ink-2: #4a4a47;
   --ink-3: #66665f;
-  --accent: #ff4f00;
-  --accent-text: #b83a00;  /* darker for 4.5:1 on light bg */
+  --accent: #14b8a6;
+  --accent-text: #0f766e;  /* darker for 4.5:1 on light bg */
   --on-accent: #111110;
   --ok: #3f7a1f;
   --warn: #8a6100;
