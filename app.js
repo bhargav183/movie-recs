@@ -8,7 +8,7 @@ const MOODS = {
   "feel-good": ["Comedy", "Romance", "Family"],
   "mind-bender": ["Science Fiction", "Sci-Fi", "Mystery"],
 };
-const LANGUAGE_ORDER = ["Telugu", "Tamil", "English"];
+const LANGUAGE_ORDER = ["English", "Telugu", "Tamil"];
 
 /* ---- Pure functions: no DOM, no globals. ---- */
 
