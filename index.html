@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Goat Films</title>
+<meta name="description" content="Films I've watched and tiered: goat, rewatch, 1&amp;done, regret. Browse by language, tier and mood.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="instrument.css">
+<link rel="stylesheet" href="site.css">
+<script>try { if (matchMedia("(prefers-color-scheme: light)").matches) document.documentElement.dataset.theme = "light"; } catch (e) {}</script>
+</head>
+<body>
+<div class="page">
+  <header class="hdr">
+    <span>Goat Films</span>
+    <nav><a href="#browse" aria-current="page">01 Browse</a></nav>
+  </header>
+
+  <section class="hero">
+    <h1 class="display">Films worth<br>your evening</h1>
+    <p class="lead">I watched every film here, then ranked it, because somebody had to. Just my opinion, and it
+      happens to be right. Pick a language, a tier and a mood, and stop scrolling. You're welcome.</p>
+    <dl class="legend">
+      <div><dt><span class="tag fill">goat</span></dt><dd>The best of the best. Watch these first.</dd></div>
+      <div><dt><span class="tag accent">rewatch</span></dt><dd>Worth a second go.</dd></div>
+      <div><dt><span class="tag">1&amp;done</span></dt><dd>Good, but once is enough.</dd></div>
+      <div><dt><span class="tag fail">regret</span></dt><dd>Watched so you don't have to.</dd></div>
+    </dl>
+    <div class="label hero-label">Some goats</div>
+    <div id="hero" class="hero-grid" aria-live="polite"></div>
+  </section>
+
+  <section class="section" id="browse">
+    <h2 class="h2">01 Browse</h2>
+    <div class="filters" id="filters"></div>
+    <div class="bar"><span>Results</span><span id="count" class="num"></span></div>
+    <div id="grid" class="grid"></div>
+    <p id="empty" class="empty" hidden>NO MATCHES — try another mood or language</p>
+  </section>
+
+  <footer class="foot label">
+    <span id="generated"></span>
+    <span>This product uses the TMDB API but is not endorsed or certified by TMDB.</span>
+  </footer>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
